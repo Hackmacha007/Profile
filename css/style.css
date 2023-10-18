@@ -155,6 +155,21 @@ html{
   color: #48dbfb;
 }
 
+
+.carousel-inner .carousel-item {
+    animation: slideRight 1s ease-in-out;
+  }
+
+  @keyframes slideRight {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+
 #home .buttons{
   margin-top: 60px;
 }
